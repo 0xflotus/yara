@@ -630,7 +630,7 @@ Error codes
 
 .. c:macro:: ERROR_INSUFICENT_MEMORY
 
-  Insuficient memory to complete the operation.
+  Insufficient memory to complete the operation.
 
 .. c:macro:: ERROR_COULD_NOT_OPEN_FILE
 
