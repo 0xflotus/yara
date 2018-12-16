@@ -146,7 +146,7 @@ Then comes the ``module_load`` function:
 This function is invoked once for each scanned file, but only if the module is
 imported by some rule with the ``import`` directive. The ``module_load``
 function is where your module has the opportunity to inspect the file being
-scanned, parse or analyze it in the way prefered, and then populate the
+scanned, parse or analyze it in the way preferred, and then populate the
 data structures defined in the declarations section.
 
 In this example the ``module_load`` function doesn't inspect the file content
