@@ -660,7 +660,7 @@ Setting variable's values
 -------------------------
 
 The ``module_load`` function is where you assign values to the variables
-declared in the declarations section, once you've parsed or analized the scanned
+declared in the declarations section, once you've parsed or analyzed the scanned
 data and/or any additional module's data. This is done by using the
 ``set_integer`` and ``set_string`` functions:
 
@@ -766,7 +766,7 @@ in a dictionary:
     set_integer(<value>, module, "foo[%s]", "key");
     set_string(<value>, module, "bar[%s].baz", "another_key");
 
-If you don't explicitely assign a value to a declared variable, array or
+If you don't explicitly assign a value to a declared variable, array or
 dictionary item it will remain in undefined state. That's not a problem at all,
 and is even useful in many cases. For example, if your module parses files from
 certain format and it receives one from a different format, you can safely leave
